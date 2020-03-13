@@ -1,8 +1,14 @@
 /* CSS files add styling rules to your content */
-
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body {
   font-family: helvetica, arial, sans-serif;
-  background-color: black;
+  background-color: rgb(15, 20, 15);
+}
+main {
 
 }
 
@@ -10,18 +16,9 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
-
-.nav {
-  aligh: top;
-  width: 100%;
-  height: auto;
-  margin-left: 20%;
-}
-.dot {
-  height: 50px;
-  width: 50px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: 20px;
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  height: 40px;
 }
