@@ -12,13 +12,46 @@ main {
 
 }
 
-h1 {
-  font-style: italic;
+h2 {
+  position: absolute;
+  font-family: calibri, sans-serif;
+  font-weight: 480;
+  font-size: 50px;
   color: #373fff;
+  top: 30px;
+  left: 90px;
+  transform: translate(0, -25%);
 }
 .logo {
   position: absolute;
   top: 30px;
   left: 30px;
   height: 40px;
+}
+.logo-box {
+  background-color: black;
+}
+.welcome-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hi-im {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.zan {
+  display: block;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.developer-designer {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
 }
