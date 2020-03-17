@@ -37,6 +37,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: blanchedalmond;
 }
 .hi-im {
   display: block;
@@ -57,4 +58,5 @@ h2 {
   font-weight: 700;
   letter-spacing: 4px;
   text-align: right;
+  color: #373fff;
 }
