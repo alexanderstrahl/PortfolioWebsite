@@ -67,3 +67,11 @@ h2 {
   height: 100vh;
   background-color: #121330;
 }
+.about-main {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: blanchedalmond;
+}
