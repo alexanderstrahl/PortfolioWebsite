@@ -75,3 +75,12 @@ h2 {
   text-align: center;
   color: blanchedalmond;
 }
+.projects {
+  display: block;
+  height: 100vh;
+}
+.contact {
+  display: block;
+  height: 100vh;
+  background-color: #121330;
+}
