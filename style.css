@@ -1,27 +1,20 @@
 /* CSS files add styling rules to your content */
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
+
 body {
   font-family: helvetica, arial, sans-serif;
   background-color: rgb(15, 20, 15);
-  width: 90vw;
-}
-main {
-  display: inline;
+  max-width: 100%;
+  overflow-x: hidden; 
 }
 nav {
   position: absolute;
   top: 30px;
   right: 30px;
 }
-header {
+.section {
   display: block;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+  height: 99vh;
+  width: 100%;
 }
 h2 {
   position: relative;
@@ -29,17 +22,15 @@ h2 {
   font-weight: 480;
   font-size: 50px;
   color: #373fff;
-  top: -12px;
+  top: 0px;
   left: 90px;
-  transform: translate(0, -25%);
+  transform: translate(0, -113%);
 }
 .logo {
   position: relative;
   top: 30px;
   left: 30px;
   height: 40px;
-}
-.logo-box {
 }
 .welcome-box {
   position: absolute;
@@ -67,12 +58,9 @@ h2 {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 4px;
-  text-align: right;
   color: #373fff;
 }
 .about {
-  display: block;
-  height: 100vh;
   background-color: #121330;
 }
 .about-main {
@@ -83,16 +71,6 @@ h2 {
   text-align: center;
   color: blanchedalmond;
 }
-.projects {
-  display: block;
-  height: 100vh;
-}
-.skills {
-  display: block;
-  height: 100vh;
-}
 .contact {
-  display: block;
-  height: 100vh;
   background-color: #121330;
-}
+} 
