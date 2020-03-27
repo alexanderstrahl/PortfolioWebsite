@@ -1,5 +1,8 @@
 /* CSS files add styling rules to your content */
-
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
   font-family: helvetica, arial, sans-serif;
   background-color: rgb(15, 20, 15);
@@ -20,11 +23,11 @@ h2 {
   position: relative;
   font-family: calibri, sans-serif; 
   font-weight: 480;
-  font-size: 50px;
+  font-size: 30px;
   color: #373fff;
   top: 0px;
   left: 90px;
-  transform: translate(0, -113%);
+  transform: translate(0, -43%);
 }
 .logo {
   position: relative;
@@ -36,7 +39,7 @@ h2 {
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-55%, -50%);
   text-align: center;
   color: blanchedalmond;
 }
@@ -67,9 +70,13 @@ h2 {
   position: relative;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-55%, -50%);
   text-align: center;
   color: blanchedalmond;
+}
+.projects {
+  display: grid;
+  grid-template-areas: 'picture description';
 }
 .contact {
   background-color: #121330;
