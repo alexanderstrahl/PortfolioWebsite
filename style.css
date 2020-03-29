@@ -74,9 +74,10 @@ h2 {
   text-align: center;
   color: blanchedalmond;
 }
-.projects {
+.project-grid {
   display: grid;
   grid-template-areas: 'picture description';
+  text-align: center;
 }
 .contact {
   background-color: #121330;
