@@ -1,2 +1,2 @@
 # PortfolioWebsite
-Create a personal portfolio website
+Personal portfolio website for myself
