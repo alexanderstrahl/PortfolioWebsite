@@ -27,8 +27,21 @@ h2 {
   color: #373fff;
   top: 0px;
   left: 90px;
+  padding-right: 10%;
+  padding: 10px;
   transform: translate(0, -43%);
-  
+}
+h3 {
+  position: relative;
+  font-family: calibri, sans-serif; 
+  font-weight: 480;
+  font-size: 30px;
+  color: #373fff;
+  top: 0px;
+  left: 90px;
+  padding-right: 20%;
+  padding: 10px;
+  transform: translate(0, -43%);
 }
 .logo {
   position: relative;
@@ -83,3 +96,21 @@ h2 {
 .contact {
   background-color: #121330;
 } 
+
+@media screen and (max-width: 1080px) {
+  h3 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 950px) {
+  h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 777px) {
+  h3 {
+    font-size: 20px;
+    padding-right: 30%;
+    padding-left: 20%;
+  }
+}
