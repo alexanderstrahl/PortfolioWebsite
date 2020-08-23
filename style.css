@@ -12,6 +12,8 @@ body {
 nav {
   top: 30px;
   right: 50px;
+  padding-left: 85%;
+  padding-right: 10px;
 }
 .section {
   display: block;
