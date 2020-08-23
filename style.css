@@ -10,9 +10,8 @@ body {
   overflow-x: hidden; 
 }
 nav {
-  position: absolute;
   top: 30px;
-  right: 30px;
+  right: 50px;
 }
 .section {
   display: block;
@@ -114,3 +113,5 @@ h3 {
     padding-left: 20%;
   }
 }
+
+$("#one").css("z-index", '');
